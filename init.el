@@ -132,4 +132,5 @@ by Prelude.")
  ;; greet the use with some useful tip
  (run-at-time 5 nil 'prelude-tip-of-the-day))
 
+(set-face-attribute 'default nil :height 150)
 ;;; init.el ends here
